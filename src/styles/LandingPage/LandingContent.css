@@ -1,0 +1,79 @@
+@font-face {
+  font-family: mango;
+  src: url(../../font/black-mango-bold.ttf);
+}
+
+@font-face {
+  font-family: black-gold;
+  src: url(../../font/Blackgold-qGAl.otf);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Taviraj', serif;
+  color: #222222;
+}
+
+.text-intro {
+  font-family: mango;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.text-size {
+  font-size: 84px;
+  font-weight: 100;
+  font-family: mango;
+  text-shadow: 5px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.trabalhos-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 64px;
+}
+
+.content {
+  margin: 8% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  gap: 10vh;
+}
+
+.dot {
+  color: #0e676d;
+}
+
+.meus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.tracinho {
+  height: 5%;
+  width: 30%;
+}
+
+.btn-landing {
+  border: none;
+  background-color: #499ea4;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 80px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-landing:hover {
+  background-color: transparent;
+  border: 1px solid #499ea4;
+  color: #499ea4;
+}
