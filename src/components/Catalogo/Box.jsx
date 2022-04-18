@@ -12,7 +12,7 @@ function Box() {
       <div className='boxes'>
         <div className="in-box">
           <motion.div onClick={() => navigate('/detalhes')} className="box-1"
-            whileTap={{ scale: 0.9 }}>
+            whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Detalhes de Perto</a>
             </div>
@@ -21,7 +21,7 @@ function Box() {
         </div >
         <div className="in-box">
           <motion.div onClick={() => navigate('/detalhes')} className="box-2"
-            whileTap={{ scale: 0.9 }}>
+            whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Estúdio</a>
             </div>
@@ -30,7 +30,7 @@ function Box() {
         </div>
         <div className="in-box">
           <motion.div onClick={() => navigate('/detalhes')} className="box-3"
-            whileTap={{ scale: 0.9 }}>
+            whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Ao ar Livre</a>
             </div>
@@ -40,7 +40,7 @@ function Box() {
       <div className="boxes2">
         <div className="in-box">
           <motion.div onClick={() => navigate('/detalhes')} className="box-4"
-            whileTap={{ scale: 0.9 }}>
+            whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Casamento</a>
             </div>
@@ -48,7 +48,7 @@ function Box() {
         </div>
         <div className="in-box">
           <motion.div onClick={() => navigate('/detalhes')} className="box-5"
-            whileTap={{ scale: 0.9 }}>
+            whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Neon</a>
             </div>

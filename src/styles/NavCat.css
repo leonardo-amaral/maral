@@ -1,0 +1,78 @@
+@font-face {
+  font-family: black-gold;
+  src: url(../font/Blackgold-qGAl.otf);
+}
+
+.logo {
+  font-family: black-gold;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  font-size: 56px;
+  align-items: center;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+.foto-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #797979;
+}
+
+.items-nav {
+  font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  color: #EEEE
+}
+
+.logo-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6vw;
+  padding-top: 2%;
+}
+
+.content-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5vw;
+  font-size: 18px;
+}
+
+.items-nav {
+  border-left: 2px solid transparent;
+  transition: 0.5s;
+  padding-left: 5px;
+}
+
+.items-nav:hover {
+  border-left: 2px solid #c66606;
+}
+
+.item-sair {
+  background-color: transparent;
+  transition: 0.5s;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  color: #EEEE;
+  text-align: center;
+}
+
+.item-sair:hover {
+  background-color: #c66606c0;
+  padding: 5px;
+  border-radius: 20px;
+}
