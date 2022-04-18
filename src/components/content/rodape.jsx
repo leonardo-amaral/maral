@@ -10,7 +10,6 @@ function rodape() {
   return (
     <div>
       <div className="rodape-content">
-        <h1 className='creditos'>Design elaborado por: Raquel Lopes Martins</h1>
         <div className="rodape-items">
           <motion.a href="" className="items"
             whileHover={{ scale: 1.1 }}

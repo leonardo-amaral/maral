@@ -1,8 +1,7 @@
 .rodape-content {
   display: flex;
   flex-direction: row;
-  margin-left: 37.5%;
-  justify-content: space-around;
+  justify-content: flex-end;
   gap: 25vw;
 }
 

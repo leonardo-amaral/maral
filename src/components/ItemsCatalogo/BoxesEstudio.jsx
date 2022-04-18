@@ -13,7 +13,7 @@ function Boxes() {
           <h1 className='ensaio-title'>ENSAIOS DE PERTO.</h1>
           <p className='ensaio-p'>As  fotos de perto pode trazer um  certo to de sentimento e expressao, pode-se trabalhar com o estilo sensual e o estilo delicado nesse tipo de foto.</p>
         </motion.div>
-        <div className="border">
+        <div className="borderr">
 
         </div>
       </div>
