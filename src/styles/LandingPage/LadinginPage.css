@@ -35,3 +35,20 @@
     overflow-x: hidden;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .content-org {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ladingPage {
+    background-image: url(../../assets/backgroundLand.png);
+    width: 450px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}

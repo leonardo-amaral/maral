@@ -11,7 +11,7 @@ function Nav() {
     <div>
       <header>
         <nav>
-          <div className="logo-items">
+          <div className="logo-items" id='logo-resp'>
             <h1 className="logo">Maral</h1>
             <h2 className='foto-logo'>Fotografias</h2>
           </div>
