@@ -16,13 +16,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<LandingPage />}>
-
-          </Route>
-
-          <Route path='/catalogo' element={<Catalogo />}>
-            <Route path='/catalogo/detalhes' element={<h1>LEONARDOAAAA</h1>} />
-          </Route>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/catalogo' element={<Catalogo />} />
+          <Route path='/detalhes' element={<DetalhesDePerto />} />
 
         </Routes>
         <Outlet />

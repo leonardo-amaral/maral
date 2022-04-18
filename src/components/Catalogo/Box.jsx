@@ -1,58 +1,61 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router'
 import '../../styles/Catalogo/Box.css'
 
 function Box() {
+  const navigate = useNavigate()
+
   return (
     <motion.div className="content-catalogo" data-aos="zoom-in">
       <div className='boxes'>
         <div className="in-box">
-          <motion.div className="box-1"
+          <motion.div onClick={() => navigate('/detalhes')} className="box-1"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <Link to="/catalogo/detalhes" className='OnImage'>Detalhes de Perto</Link>
+              <a className='OnImage'>Detalhes de Perto</a>
+            </div>
+          </motion.div>
+
+        </div >
+        <div className="in-box">
+          <motion.div onClick={() => navigate('/detalhes')} className="box-2"
+            whileTap={{ scale: 0.9 }}>
+            <div className="text-box">
+              <a className='OnImage'>Estúdio</a>
             </div>
           </motion.div>
 
         </div>
         <div className="in-box">
-          <motion.div className="box-2"
+          <motion.div onClick={() => navigate('/detalhes')} className="box-3"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <Link to="/estudio" className='OnImage'>Estúdio</Link>
-            </div>
-          </motion.div>
-
-        </div>
-        <div className="in-box">
-          <motion.div className="box-3"
-            whileTap={{ scale: 0.9 }}>
-            <div className="text-box">
-              <Link to="/" className='OnImage'>Ao ar livre</Link>
+              <a className='OnImage'>Ao ar Livre</a>
             </div>
           </motion.div>
         </div>
-      </div>
+      </div >
       <div className="boxes2">
         <div className="in-box">
-          <motion.div className="box-4"
+          <motion.div onClick={() => navigate('/detalhes')} className="box-4"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <Link to="/" className='OnImage'>Casamento</Link>
+              <a className='OnImage'>Casamento</a>
             </div>
           </motion.div>
         </div>
         <div className="in-box">
-          <motion.div className="box-5"
+          <motion.div onClick={() => navigate('/detalhes')} className="box-5"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <Link to="/" className='OnImage'>Neon</Link>
+              <a className='OnImage'>Neon</a>
             </div>
           </motion.div>
         </div>
       </div>
-    </motion.div>
+    </motion.div >
   )
 }
 

@@ -22,7 +22,12 @@
   font-family: 'Questrial', sans-serif;
   font-weight: 100;
   font-size: 21px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  background: transparent;
+  text-transform: uppercase;
 }
 
 .text-box {
