@@ -77,3 +77,13 @@
   border: 1px solid #499ea4;
   color: #499ea4;
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    margin: 3% 3%;
+  }
+}

@@ -19,3 +19,19 @@
   font-size: 16px;
   color: #797979b1;
 }
+
+@media screen and (max-width: 768px) {
+  .content-org {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ladingPage {
+    background-image: url(../../assets/backgroundLand.png);
+    width: 768px;
+    height: 100%;
+    overflow-x: hidden;
+  }
+}

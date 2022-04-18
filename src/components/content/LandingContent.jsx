@@ -9,7 +9,7 @@ function LandingContent() {
   return (
     <div className="content">
       <div className="text">
-        <h1 className='text-intro'>Conheçaaaa</h1>
+        <h1 className='text-intro'>Conheça</h1>
         <div className='meus'>
           <h1 className='text-intro'>Meus</h1>
           <img className='tracinho' src={Tracinho} alt="" />
