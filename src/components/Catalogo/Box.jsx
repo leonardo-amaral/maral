@@ -20,7 +20,7 @@ function Box() {
 
         </div >
         <div className="in-box">
-          <motion.div onClick={() => navigate('/detalhes')} className="box-2"
+          <motion.div onClick={() => navigate('/Estudio')} className="box-2"
             whileTap={{ scale: 0.5 }}>
             <div className="text-box">
               <a className='OnImage'>Estúdio</a>

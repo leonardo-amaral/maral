@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import { Outlet } from 'react-router';
 import DetalhesDePerto from './pages/subPages/DetalhesDePerto';
 import DetalhesSlide from './pages/subPages/DetalhesSlide';
+import Estudio from './pages/subPages/Estudio'
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/catalogo' element={<Catalogo />} />
           <Route path='/detalhes' element={<DetalhesDePerto />} />
           <Route path='/show-de-perto' element={<DetalhesSlide />} />
+          <Route path='/Estudio' element={<Estudio />} />
 
         </Routes>
         <Outlet />

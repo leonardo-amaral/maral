@@ -1,0 +1,78 @@
+.main {
+  margin: 2% 1%;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+}
+
+
+.box-text {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.7);
+  padding: 10px;
+}
+
+.box {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.background-box-estudio {
+  margin: 5% 5%;
+  background-image: url(../../../assets/3/pexels-anna-shvets-4971529.jpg);
+  width: 90%;
+  height: 92%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-box-estudio1 {
+  margin: 5% 5%;
+  background-image: url(../../../assets/3/pexels-monstera-5273721.jpg);
+  width: 90%;
+  height: 92%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ensaio-title {
+  color: #ffff;
+  font-family: 'Cabin', sans-serif;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 2%;
+}
+
+.text-ensaio {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 27%;
+  font-size: 28px;
+  gap: 2vh;
+}
+
+.border {
+  border-top: 8px solid #4d2343;
+}
+
+.ensaio-p {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: #797979;
+  text-align: start;
+  line-height: 28px;
+  font-weight: 100;
+  margin: 2%;
+  text-transform: uppercase;
+}

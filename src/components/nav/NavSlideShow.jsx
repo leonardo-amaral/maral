@@ -8,7 +8,7 @@ function Nav() {
   return (
     <div>
       <header>
-        <nav>
+        <nav className='navv'>
           <div className="logo-items">
             <h1 className="logooo">Maral</h1>
             <h2 className='foto-logooo'>Fotografias</h2>
