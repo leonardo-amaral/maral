@@ -18,8 +18,8 @@ function Nav() {
           <div className="content-nav">
             <Link to="/" className='nav-items'>INICIO</Link>
             <Link to="/catalogo" className='nav-items'>CATALÓGO</Link>
-            <Link to="/sobre" className='nav-items'>SOBRE MIN</Link>
-            <Link to="/contato" className='nav-items'>CONTATO</Link>
+            <Link to="/sobre" className='nav-items' id='hidenn'>SOBRE MIN</Link>
+            <Link to="/contato" className='nav-items' id='hidenn'>CONTATO</Link>
           </div>
         </nav>
       </header>

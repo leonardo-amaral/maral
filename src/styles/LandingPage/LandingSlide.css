@@ -49,4 +49,25 @@ main {
   }
 }
 
-@media screen and (max-width: 450px) {}
+@media screen and (max-width: 450px) {
+  .carousel {
+    width: 50%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  main {
+    margin: 0 1%;
+    height: 27rem;
+  }
+
+  .item {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .inner-carousel {
+    width: 24rem;
+    height: 29rem;
+  }
+}

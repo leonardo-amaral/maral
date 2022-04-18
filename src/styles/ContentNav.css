@@ -37,7 +37,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 6vw;
   padding-top: 2%;
 }
@@ -74,7 +74,7 @@ nav {
   }
 
   #logo-resp {
-    margin-left: 20%;
+    margin-left: 25%;
   }
 
   .logo {
@@ -83,5 +83,9 @@ nav {
 
   .foto-logo {
     font-size: 8px;
+  }
+
+  #hidenn {
+    visibility: hidden;
   }
 }
