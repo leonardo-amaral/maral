@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import '../../styles/Catalogo/Box.css'
 
 function Box() {
@@ -10,7 +11,7 @@ function Box() {
           <motion.div className="box-1"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <h1 className='OnImage'>Detalhes de Perto</h1>
+              <Link to="/catalogo/detalhes" className='OnImage'>Detalhes de Perto</Link>
             </div>
           </motion.div>
 
@@ -19,7 +20,7 @@ function Box() {
           <motion.div className="box-2"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <h1 className='OnImage'>Detalhes de Perto</h1>
+              <Link to="/estudio" className='OnImage'>Estúdio</Link>
             </div>
           </motion.div>
 
@@ -28,7 +29,7 @@ function Box() {
           <motion.div className="box-3"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <h1 className='OnImage'>Detalhes de Perto</h1>
+              <Link to="/" className='OnImage'>Ao ar livre</Link>
             </div>
           </motion.div>
         </div>
@@ -38,7 +39,7 @@ function Box() {
           <motion.div className="box-4"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <h1 className='OnImage'>Detalhes de Perto</h1>
+              <Link to="/" className='OnImage'>Casamento</Link>
             </div>
           </motion.div>
         </div>
@@ -46,7 +47,7 @@ function Box() {
           <motion.div className="box-5"
             whileTap={{ scale: 0.9 }}>
             <div className="text-box">
-              <h1 className='OnImage'>Detalhes de Perto</h1>
+              <Link to="/" className='OnImage'>Neon</Link>
             </div>
           </motion.div>
         </div>

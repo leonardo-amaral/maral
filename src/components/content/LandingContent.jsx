@@ -1,9 +1,11 @@
 import React from 'react'
 import Tracinho from '../../assets/tracinho.png'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router'
 import '../../styles/LandingPage/LandingContent.css'
 
 function LandingContent() {
+  const navigate = useNavigate()
   return (
     <div className="content">
       <div className="text">
@@ -20,7 +22,8 @@ function LandingContent() {
       <motion.button className='btn-landing'
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.8 }}
-        transition={{ duration: 0.5 }}>COMECE</motion.button>
+        transition={{ duration: 0.5 }}
+        onClick={() => navigate('/catalogo')}>COMECE</motion.button>
     </div>
   )
 }
