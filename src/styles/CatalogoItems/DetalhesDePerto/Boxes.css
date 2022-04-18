@@ -1,0 +1,42 @@
+.main {
+  margin: 2% 0%;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  width: 100%;
+  height: 80vh;
+  justify-content: center;
+}
+
+.box-text {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.box {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.background-box {
+  margin: 5% 5%;
+  background-image: url(../../../assets/PAGINA2/backgroundCatItems.jpg);
+  width: 90%;
+  height: 92%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-box1 {
+  margin: 5% 5%;
+  background-image: url(../../../assets/PAGINA2/backgroundCatItems2.jpg);
+  width: 90%;
+  height: 92%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

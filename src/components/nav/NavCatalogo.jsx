@@ -10,8 +10,8 @@ function Nav() {
       <header>
         <nav>
           <div className="logo-items">
-            <h1 className="logo">Maral</h1>
-            <h2 className='foto-logo'>Fotografias</h2>
+            <h1 className="logoo">Maral</h1>
+            <h2 className='foto-logoo'>Fotografias</h2>
           </div>
           <div className="content-nav">
             <Link to="/" className='items-nav'>INICIO</Link>
