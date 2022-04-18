@@ -15,7 +15,6 @@ function LandingPage() {
           <Carousel />
         </div>
         <div className="rodape">
-          <Rodape />
         </div>
       </section>
     </div>

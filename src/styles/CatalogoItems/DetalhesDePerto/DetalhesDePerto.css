@@ -4,4 +4,6 @@
   background-image: url(../../../assets/PAGINA2/backgroundCat.jpg);
   background-position: center;
   background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
