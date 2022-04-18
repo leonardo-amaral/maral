@@ -7,7 +7,9 @@ import '../../styles/CatalogoItems/DetalhesDePerto/DetalhesDePerto.css'
 function DetalhesDePerto() {
   return (
     <div className='DetalhesDePerto'>
-      <Nav />
+      <div className="effect" data-aos="fade-down">
+        <Nav />
+      </div>
       <Boxes />
     </div>
   )
